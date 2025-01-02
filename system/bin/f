@@ -1,0 +1,273 @@
+#!/system/bin/sh
+echo "▸Please wait moment ♻️"
+[ "$(id -u)" -ne 2000 ]
+#========================================
+# Nro Project Enhanced 
+# Developer : @NroProject [Bang Krizz]
+# Team : @NroProject
+# Use All Tweaks After Give Me Proper Credit⚠️
+#========================================
+sleep 0.1
+echo "
+███╗░░██╗██████╗░░█████╗░ 
+████╗░██║██╔══██╗██╔══██╗
+██╔██╗██║██████╔╝██║░░██║
+██║╚████║██╔══██╗██║░░██║
+██║░╚███║██║░░██║╚█████╔╝
+╚═╝░░╚══╝╚═╝░░╚═╝░╚════╝░ "
+ sleep 0.2
+echo " 
+████████╗░██╗░░░░░░░██╗███████╗░█████╗░██╗░░██╗░██████╗
+╚══██╔══╝░██║░░██╗░░██║██╔════╝██╔══██╗██║░██╔╝██╔════╝
+░░░██║░░░░╚██╗████╗██╔╝█████╗░░███████║█████═╝░╚█████╗░
+░░░██║░░░░░████╔═████║░██╔══╝░░██╔══██║██╔═██╗░░╚═══██╗
+░░░██║░░░░░╚██╔╝░╚██╔╝░███████╗██║░░██║██║░╚██╗██████╔╝
+░░░╚═╝░░░░░░╚═╝░░░╚═╝░░╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░ "
+echo ""
+sleep 0.1
+echo ""
+echo " -## Show Device Info ##- "
+sleep 0.1
+echo "------------------------------------"
+sleep 0.1
+echo "• Model : $(getprop ro.product.model) "
+sleep 0.1
+echo "• Code Name : $(getprop ro.product.device) "
+sleep 0.1
+echo "• CPU Info : $(getprop ro.hardware) "
+sleep 0.1
+echo "• Kernel : $(uname -r) "
+sleep 0.1
+echo "• Android : $(getprop ro.build.version.release) "
+sleep 0.1
+echo "• RAM : $(free | grep Mem |  awk '{print $2}') "
+sleep 0.1
+echo "------------------------------------"
+sleep 0.2
+echo ""
+echo " Simple Tweaks Force Stop App - Nro Tweaks "
+sleep 0.2
+echo ""
+echo " Closed Apps Background ☑"
+sleep 0.1
+
+#edit or add application packages according to name or alphabetically
+
+#package A
+am force-stop com.android.vending
+am force-stop com.android.camera
+am force-stop com.android.chrome
+am force-stop com.google.android.youtube
+am force-stop com.whatsapp
+am force-stop org.swiftapps.swiftbackup
+am force-stop com.discord
+am force-stop com.facebook.katana
+am force-stop org.telegram.messenger
+am force-stop tw.nekomimi.nekogram
+am force-stop com.zhiliaoapp.musically
+am force-stop tw.nekomimi.nekogram
+am force-stop com.android.chrome
+am force-stop com.zen.alchan
+am force-stop com.thekeeperofpie.anichive
+am force-stop me.livechart.android
+am force-stop com.google.android.googlequicksearchbox
+am force-stop com.google.android.apps.docs
+am force-stop com.mihoyo.hoyolab
+am force-stop com.google.android.gm
+am force-stop com.taptap.global
+am force-stop com.android.camera
+am force-stop com.android.vending
+am force-stop com.miui.videoplayer
+am force-stop com.miui.player
+am force-stop bin.mt.plus
+am force-stop com.xiaomi.scanner
+am force-stop app.mihon.debug
+am force-stop ani.dantotsu.beta
+am force-stop com.miui.gallery
+am force-stop ani.dantotsu
+am force-stop com.android.chrome
+am force-stop ru.zdevs.zarchiver
+am force-stop com.google.android.youtube
+am force-stop com.twitter.android
+am force-stop com.twitter.android
+am force-stop com.niven.game
+am force-stop me.ayra.animestream
+am force-stop fun.okeko.animein
+am force-stop com.google.android.apps.paidtasks
+am force-stop com.dubox.drive
+am force-stop org.nekomanga.neko
+am force-stop com.miui.weather2
+am force-stop com.facebook.katana
+am force-stop com.reddit.frontpage
+am force-stop com.google.android.apps.bard
+am force-stop com.ss.android.tt.creator
+am force-stop com.facebook.katana
+am force-stop com.instagram.android
+am force-stop com.excelliance.multiaccounts
+am force-stop com.proximabeta.aoemobile
+am force-stop com.reddit.frontpage
+am force-stop id.dana
+am force-stop com.kimchilabs.ngedrakor
+am force-stop com.shopeepay.id
+am force-stop com.pure.indosat.care
+am force-stop com.google.android.apps.authenticator2
+am force-stop com.spakd.n.fy.pbw
+am force-stop com.gametools
+am force-stop com.YandereBest
+am force-stop com.komi.Komikomi
+am force-stop com.YQGenshinBeta
+am force-stop com.chrome.beta
+am force-stop com.chrome.dev
+am force-stop com.kagura.genshin.assistant
+am force-stop com.gas.gassist
+am force-stop com.blackmountain.apps.gibt
+am force-stop com.komi.Komikomi
+am force-stop com.pure.indosat.care
+am force-stop com.naver.linewebtoon
+am force-stop com.dcenhancements.webh
+am force-stop dev.animeplay.app
+am force-stop com.bloodmoon
+am force-stop com.Tetracyl.discord_bots
+am force-stop com.dscord2
+am force-stop com.dscord3
+am force-stop com.dscord4
+am force-stop com.dscord2
+am force-stop com.valvesoftware.android.steam.community
+am force-stop com.zhiliaoapp.musically
+am force-stop com.shopee.id
+am force-stop com.shopee.id
+am force-stop com.dubox.drive
+am force-stop com.dubox.drive
+am force-stop com.dubox.drive
+am force-stop com.sina.weibo
+am force-stop com.sina.weibo
+am force-stop org.chromium.webapk.a0e0951a7b8def764_v2
+am force-stop com.shopee.id
+am force-stop com.shopee.id
+am force-stop com.radolyn.ayugram
+am force-stop org.koitharu.kotatsu.nightly
+am force-stop org.koitharu.kotatsu.nightly
+am force-stop com.mrboomdev.awery.alpha
+am force-stop com.sina.weibo
+am force-stop org.chromium.webapk.a0e0951a7b8def764_v2
+am force-stop org.chromium.webapk.a5535c29bdce62a5b_v2
+am force-stop org.chromium.webapk.a2c09b4c40f3724f5_v2
+am force-stop org.chromium.webapk.a9afa43929940c970_v2
+am force-stop com.shinigami.id
+am force-stop org.chromium.webapk.a1b3019caad6c348e_v2
+am force-stop com.zhiliaoapp.musically
+am force-stop com.folderv.file
+am force-stop com.westmanga.westmanga
+am force-stop org.chromium.webapk.add6d263b24b5c543_v2
+am force-stop com.shopee.id
+am force-stop com.shopee.id
+am force-stop com.shopee.id
+
+
+#package B
+
+#package C
+am force-stop com.coco.drive
+am force-stop com.dubox.drive
+am force-stop ai.character.app
+am force-stop com.chrome.dev
+
+#package D
+am force-stop com.discord
+
+#Package E
+
+#Package F
+
+#Package G
+am force-stop com.google.android.apps.photos
+am force-stop com.google.android.gm
+am force-stop com.google.android.gms
+am force-stop com.google.android.gsf
+am force-stop com.google.vending
+am force-stop com.google.android.googlequicksearchbox
+am force-stop com.google.android.youtube
+am force-stop com.google.android.apps.docs
+
+#Package H
+
+#Package I
+am force-stop com.instagram.android
+
+#Package J
+
+#Package K
+
+#Package L
+am force-stop com.lemon.lvoverseas
+
+#Package M
+am force-stop com.mihoyo.hoyolab
+am force-stop com.miui.videoplayer
+am force-stop com.mi.global.bbs
+
+#Package N
+am force-stop tw.nekomimi.nekogram
+am force-stop com.tencent.qqlivei18n
+
+#Package O
+am force-stop com.openai.chatgpt
+
+#Package P
+
+#Package Q
+
+#Package R
+
+#Package S
+am force-stop com.spotify.music
+
+#Package T
+am force-stop org.telegram.messenger
+am force-stop com.taptap.global
+am force-stop com.telkomsel.telkomselcm
+
+#Package U
+
+#Package V
+
+#Package W
+am force-stop com.whatsapp
+am force-stop com.miui.weather2
+am force-stop cn.wps.moffice_eng
+
+#Package X
+
+
+#Package Y
+
+
+#Package Z
+am force-stop com.zhiliaoapp.musically
+
+echo ""
+#to stop applications running in the background of the Android system
+#If you want to add another application, just paste the application package
+#will not cause system damage or anything else
+sleep 0.2
+echo " Done ☑"
+sleep 0.5
+echo ""
+echo " Added Tweaks Complete ☑"
+sleep 0.4
+
+echo "$PORNHUB $(date +"%b %d-%m • %r
+ 微Adjustment Forced Stop Successful-☑☑" )" >> /storage/emulated/0/Android/NRRO.txt
+      
+# Only some special files require specific permissions
+# This function will be called after on_install is done
+# The default permissions should be good enough for most cases
+echo " "
+sleep 1
+echo " DONT REBOOT, AFTER INSTALL "
+echo " CHECK THE Android/NRRO FOLDER "
+sleep 2
+echo " @ N R O  -  P R O J E C T S  -  R E B O R N "
+sleep 1
+am force-stop com.termux
+exit 0
